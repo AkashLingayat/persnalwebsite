@@ -1,0 +1,94 @@
+
+body{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  /* background-color: powderblue; */
+  background-color: rgba(20, 20, 200, 0.25);
+  background-image:url(wall-background.jpg);
+  background-blend-mode: color;
+  filter: none;
+  background-size: 100%;
+  text-align: center;
+  opacity: 1;
+}
+
+
+
+.nameHeading{
+  font-family: 'Pacifico', cursive;
+  color: #0e182bed;
+  font-size: 500%;
+  padding-top: 6%;
+  margin: 0 auto;
+
+
+}
+.h3Heading{
+  padding-bottom: 0.01%;
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  color: #020104d9;
+  margin: 0 auto;
+  
+}
+.h4Heading{
+  font-size: 1.8rem;
+  color : #2a186de6;
+}
+
+.image-wraper{
+  padding: 0px;
+  margin: 4% auto;
+  width: 30rem;
+  height: 30rem;
+  overflow: hidden;
+  border-radius: 100%;
+  box-shadow: 0px 0px 20px 1px #444444;
+
+}
+.myPhoto{
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  transition: transform 200ms linear;
+  box-shadow: 0px 0px 20px 1px #444444;
+
+}
+.myPhoto:hover{
+  transform: scale(1.2);
+}
+.HoriRaw{
+  margin: 5% auto;
+  width: 20%;
+  height: 0px;
+  border: 0.5rem dotted #4a2929;
+  border-top: none;
+}
+
+.skilllogos{
+  width: 20%;
+  border-radius: 10%;
+}
+.description{
+
+  font-family:Segoe Print ;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: auto 5%;
+}
+a.ContactMeLink{
+  color:#01239cfa;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px 1%;
+
+}
+.footerOfWeb{
+  background-color: rgba(25, 29, 49, 0.66);
+  color: bisque;
+  padding: 30px;
+  margin: 0px 0px 0px 0px;
+
+}
